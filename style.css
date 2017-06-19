@@ -12,7 +12,7 @@
 	left:0px;
   right: 0px;
   display: inline-block;
-  list-style-type: none; 
+  list-style-type: none;
  } /*redundant*/
 
  a {
@@ -35,9 +35,13 @@ ul {
   padding: 0;
 }
 
+li {
+  float: right;
+}
+
 li a {
-  display: inline-block;
-  padding-left: 15px;
+  display: block;
+  padding-left: 5px;
   padding-right: 5px;
   color: #666;
 }
@@ -85,18 +89,25 @@ li a {
   size: 50px
   margin: 5px;
   padding: 0 2px;
-  width: 16px;
-  height: 20px
+  width: 32px;
+  height: 40px
   background-position: -194px -21px;
 }
 
 #logo {
-
+  position: fixed;
+	top: 200px;
+	left:570px;
+  right: 0px;
 }
 
 #input {
-  width: 570px;
-	height: 35px;
+  position: fixed;
+	top: 330px;
+	left:425px;
+  right: 0px;
+  width: 550px;
+	height: 40px;
 	border-top: 1px solid #EEEEEE;
 	border-bottom: 1px solid #EEEEEE;
 	border-right: 1px solid #EEEEEE;
@@ -108,21 +119,41 @@ li a {
 	background-repeat:no-repeat;
 	background-position:548px 4px;
 	background-size:14px 19px;
-   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
 #button {
+  position: fixed;
+  top: 390px;
+  right: 750px;
   border: 1px solid #d3d3d3;
-  	background: #f3f3f3;
-  	color:#696969;
-  	margin-left:4px;
-  	margin-right:4px;
-  	margin-top: 15px;
-  	font-family: arial, sans-serif;
-  	font-size: 11px;
-  	font-weight: bold;
-  	padding: 7px;
-  	border-radius:2px;
+  background: #f3f3f3;
+  color:#696969;
+  margin-left:4px;
+  margin-right:4px;
+  margin-top: 15px;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 7px;
+  border-radius:2px;
+}
+
+#lucky-button {
+  position: fixed;
+  top: 390px;
+  right: 590px;
+  border: 1px solid #d3d3d3;
+  background: #f3f3f3;
+  color:#696969;
+  margin-left:4px;
+  margin-right:4px;
+  margin-top: 15px;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 7px;
+  border-radius:2px;
 }
 
 
